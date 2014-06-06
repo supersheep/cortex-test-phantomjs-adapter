@@ -1,28 +1,31 @@
 {
-  "name": "cortex-test-phantom-adapter",
+  "name": "cortex-test-phantomjs-adapter",
   "version": "0.1.0",
-  "description": "cortex-test-phantom-adapter",
-  "main": "index.js",
+  "description": "cortex-test-phantomjs-adapter",
+  "main": "lib/index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/supersheep/cortex-test-phantom-adapter.git"
+    "url": "git://github.com/supersheep/cortex-test-phantomjs-adapter.git"
   },
   "keywords": [
-    "cortex-test-phantom-adapter"
+    "cortex-test-phantomjs-adapter"
   ],
-  "engines": { 
+  "engines": {
     "node": ">=0.11.0"
   },
   "author": "supersheep",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/supersheep/cortex-test-phantom-adapter/issues"
+    "url": "https://github.com/supersheep/cortex-test-phantomjs-adapter/issues"
   },
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "phantomjs": "^1.9.7-8"
   }
 }
