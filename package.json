@@ -1,6 +1,6 @@
 {
   "name": "cortex-test-phantomjs-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cortex-test-phantomjs-adapter",
   "main": "lib/index.js",
   "scripts": {
